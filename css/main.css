@@ -1,1 +1,47 @@
-main.css
+* {
+	box-sizing: border-box;
+}
+
+body {
+	max-width: 1000px;
+	margin: auto;
+	font-family: 'Jura', sans-serif;
+	text-align: center;
+	box-shadow: 5px 5px 15px #f2f2f2, -5px 5px 15px #f2f2f2;
+}
+
+h1 {
+	width: 100%;
+	font-size: 50px;
+	letter-spacing: 4px;
+}
+
+h3 {
+	width: 100%;
+	margin: auto;
+	font-size: 18px;
+	letter-spacing: 4px;
+}
+
+nav {
+	border-top: 3px solid #000;
+	border-bottom: 1px solid #000;
+	margin-right: 125px;
+	margin-left: 125px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+a {
+	text-decoration: none;
+	font-size: 35px;
+	margin-right: 25px;
+	letter-spacing: 2px;
+}
+
+.images {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+
