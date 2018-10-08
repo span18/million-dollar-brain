@@ -3,7 +3,7 @@
 }
 
 body {
-	max-width: 1000px;
+	max-width: 1100px;
 	margin: auto;
 	font-family: 'Jura', sans-serif;
 	text-align: center;
@@ -22,6 +22,12 @@ h1 {
 	margin: auto;
 	font-size: 50px;
 	letter-spacing: 4px;
+}
+
+@media screen and (max-width: 640px) {
+	.responsive {
+		font-size: 25px;	
+	}
 }
 
 h3 {
@@ -45,11 +51,26 @@ a {
 	font-size: 35px;
 	margin-right: 25px;
 	letter-spacing: 2px;
+	color: #000;
 }
 
 .images {
+	margin: auto;
 	padding-top: 30px;
 	padding-bottom: 30px;
+	max-width: 1000px;
+}
+
+footer p {
+	margin: auto;
+	max-width: 500px;
+	font-size: 21px;
+}
+
+@media screen and (max-width: 600px) {
+	.responsive_p {
+		font-size: 17px;
+	}
 }
 
 
