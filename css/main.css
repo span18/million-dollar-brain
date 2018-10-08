@@ -24,7 +24,7 @@ h1 {
 	letter-spacing: 4px;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 870px) {
 	.responsive {
 		font-size: 25px;	
 	}
@@ -46,6 +46,12 @@ nav {
 	padding-bottom: 5px;
 }
 
+@media screen and (max-width: 870px) {
+	.responsive_nav {
+		font-size: 17px;	
+	}
+}
+
 a {
 	text-decoration: none;
 	font-size: 35px;
@@ -58,7 +64,6 @@ a {
 	margin: auto;
 	padding-top: 30px;
 	padding-bottom: 30px;
-	max-width: 1000px;
 }
 
 footer p {
@@ -67,7 +72,7 @@ footer p {
 	font-size: 21px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 870px) {
 	.responsive_p {
 		font-size: 17px;
 	}
