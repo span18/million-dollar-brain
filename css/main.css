@@ -38,6 +38,7 @@ h3 {
 }
 
 nav {
+	position: relative;
 	border-top: 3px solid #000;
 	border-bottom: 1px solid #000;
 	margin-right: 125px;
